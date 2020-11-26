@@ -1,0 +1,138 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+}
+input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  width: 100%;
+  font-size: larger;
+}
+#zipInput{
+    background-color: transparent!important;
+    border-color: transparent!important;
+    outline: transparent!important;
+}
+Select{
+  background-color:rgb(255, 255, 255);;
+
+}
+button, .navHeader {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, rgb(44, 112, 158) 5%, #6c7c7c 100%);
+	background-color:rgb(44, 112, 158);
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff!important;
+	font-family:Arial!important;
+	font-size:15px!important;
+	font-weight:bold!important;
+	padding:4px 6px!important;
+	text-decoration:none!important;
+  text-shadow:0px -1px 0px #2b665e!important;
+  margin-top: 10px;
+}
+button:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+.header-div{
+  padding: 0px!important;
+}
+#navigationButton{
+  margin-top: 5px;
+}
+.rc-menu-button{
+  padding: 3px 3px!important;
+}
+.red{
+  color: rgb(133, 36, 36);
+}
+.hidden{
+  display: none;
+}
+#main-header{
+  border-bottom: black 1px solid;
+}
+.bouncy{
+  animation:bouncy 5s infinite linear;
+  position:relative;
+}
+@keyframes bouncy {
+  0%{top:0em}
+  40%{top:0em}
+  43%{top:-0.9em}
+  46%{top:0em}
+  48%{top:-0.4em}
+  50%{top:0em}
+  100%{top:0em;}
+}
+.left-margin{
+  margin-left: 10px;
+}
+.carousel-div{
+  background-color: lightblue;
+  width: 90vw;
+  max-width: 360px;
+  height: 300px;
+  border-radius: 5px;
+}
+.max-width{
+  max-width: 400px;
+}
+.carousel-img{
+  height: 100%;
+}
+.cuisineItems{
+  height: 33px;
+}
+.Modal {
+  position: fixed;
+  z-index: 500;
+  background-color: white;
+  width: 70%;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px black;
+  padding: 16px;
+  left: 15%;
+  top: 30%;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+}
+
+@media (min-width: 600px) {
+  .Modal {
+      width: 500px;
+      left: calc(50% - 250px);
+  }
+}
+.Backdrop {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+.buttonMargin{
+  margin-top: 10px;
+}
+.center-col{
+  display: inline-block;
+  vertical-align: middle;
+}
+.top-half{
+  height: 45vh;
+}
+.bottom-half{
+  height: 40vh;
+}
