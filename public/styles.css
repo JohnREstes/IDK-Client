@@ -36,7 +36,17 @@
     opacity: 0;
     animation: fadeIn 1s ease-in forwards;
 }
-
 #splashImage{
-    height: 100%;
+    max-height: 90%;
+    width: auto;
 }
+@media (max-width: 600px) {
+    #splashImage{
+        margin: 5px;
+    }
+  }
+/* @media (max-width: 600px) {
+    #splashImage{
+        height: 90%;
+    }
+  }   */
