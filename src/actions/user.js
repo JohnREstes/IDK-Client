@@ -55,7 +55,7 @@ export const getUser = () => dispatch => {
             })
         })   
     .catch(err => {
-        console.log('This is your error ' + err)
+        console.log('This is your error message' + err)
     })
 };        
 
